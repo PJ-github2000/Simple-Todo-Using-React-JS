@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-width: 3px;
+  border-color: #ff8542;
+  background-color: #ffc2a0;
+}
+.todos-box {
+  background-color: white;
+  border-radius: 10px;
+  border-width: 0px;
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px 80px 30px 80px;
+}
+.heading {
+  color: #ff8542;
+  font-size: 35px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+.each-todo{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
